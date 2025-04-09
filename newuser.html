@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information Form</title>
+    <link rel="stylesheet" href="newuser1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>New User Information</h1>
+        <form action="#" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+            
+            <label for="contact">Contact Number:</label>
+            <input type="tel" id="contact" name="contact" required placeholder="Enter your contact number">
+            
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            
+            <label for="occupation">Occupation:</label>
+            <select id="occupation" name="occupation" required>
+                <option value="student">Student</option>
+                <option value="unemployed">Unemployed</option>
+            </select>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

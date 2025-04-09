@@ -1,0 +1,32 @@
+/* span.my,li.my{
+    color: aqua;
+    font-weight: bold;
+} */
+
+
+/* to chenge bullet point */
+/* li{
+    list-style-type: none,square;
+} */
+
+
+/* for selecting class and apply changes on input
+.classname{
+    changes
+} */
+
+/* select 2 adjecent tag
+h1+p{
+    font-size: small;
+} */
+
+/* line below the link get remove
+a:hover{
+    color: aqua;
+    text-decoration-line: none;
+} */
+   /* for background color
+p{
+    background-color: blueviolet;
+} */
+
